@@ -22,6 +22,11 @@ client.on('message', (message) =>{
     message.channel.send("Хуй те на обед");
             
     }
+     if(message.content == "Пошёл нахуй")
+    {
+    message.channel.send("Нахуй не идут нахуй садятся");
+            
+    }
     });
     
   
