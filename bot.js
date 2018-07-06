@@ -7,6 +7,11 @@ client.on('message', (message) =>{
     message.channel.send("Да?");
             
     }
+     if(message.content == "Да")
+    {
+    message.channel.send("Провода");
+            
+    }
     });
     
   
