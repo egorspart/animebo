@@ -12,6 +12,16 @@ client.on('message', (message) =>{
     message.channel.send("Провода");
             
     }
+     if(message.content == "Нет")
+    {
+    message.channel.send("Пидора ответ");
+            
+    }
+     if(message.content == "Шлюхи аргумент")
+    {
+    message.channel.send("Хуй те на обед");
+            
+    }
     });
     
   
